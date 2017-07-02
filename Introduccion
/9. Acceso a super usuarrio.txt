@@ -1,0 +1,31 @@
+una de las principales caracteristicas de GNU linux es que tienen un usuario con permisos totales sobre el sistema en este caso tradicionalmente es llamado root o superusuario
+
+para reali9zar tareas administrativas siempre se requiere de una contraseña
+
+la cuenta root es la cuenta con los permisos mas elevados
+
+
+
+sudo su
+
+su nos permite cambuar de usuario
+hay que tener cuidado cuando utilizemos root
+ya que podemos eliminar cualquier archivo sin permisos
+
+para salir utilizamos exit
+
+$ usuario normal
+# usuario root
+
+
+Crear una contrseña a al usuario root
+sudo passwd root
+
+ELiminar la contraseña temporal 
+sudo passwd -l root
+
+whoami comando para saber que usuario soy
+
+
+nombredeusuario@nombredeequipo: ruta actual
+
