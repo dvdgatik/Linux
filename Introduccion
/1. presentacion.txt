@@ -1,0 +1,14 @@
+﻿Que es GNU
+Es un sistema operativo de tipo unix, es una coleccion de aplicdaciones, bibliotecas, herramientas de desarrollo, videojuegos 
+
+Es conocido como proyecto GNU
+iniciado en enero de 1984 por richard stallman
+GNU Acronicmo su significado es 
+GNU no es unix
+se utilizaq generalmente con un nucleo llamado linux
+
+Que es linux
+Es el kernel o nucleo del sistema operativo
+lo que  realiza como nucleo es administrar el conjunto de drivers necesarios para que el ordenador funcione con el
+Inventor de linux es el ingeniero de software filandes
+Linus Benedict Torvalds

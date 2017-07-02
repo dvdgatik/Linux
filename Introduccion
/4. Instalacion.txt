@@ -1,0 +1,50 @@
+Pasos para instlar  una distro
+
+1. Descargar la distribucion desde su pagina ofical
+Exiten tres formas de descvargar con las que te puedes encontrar
+por ejemplo:
+ubunto desktop
+ubuntu server
+ubuntu cloud
+y verificar la arquitectura de tu sistema operativo  32 o 64 bits
+
+El archivo que se descargara es en formato.iso
+
+exiten varias formas de monar el sistema operativo ya sea a una MAC o a una PC estos logicamente ya tienen sistemas operativos como windows o max os
+   -Creando una maquina virtual
+       Entre algunas herramientas 
+       		virtualbox
+            vagrant 
+       	    docker
+    -Haciendo un dual boot (Es decir, crear un particion al disco duro para montar la distro en el, al momento de arrancar el ordenador reflejara ambos sistemas operativos) 
+       -para ello es necesdario un disco o una memoria usb booteable, se puede bootear en UEFI o legacy (bios tradicional) habira que reviar en que modo esta instalado tu sistema operativo actual
+
+  Pasos para hacer particion
+
+  Liberar espacio de disco duro a mi criterio unos 200 GB si es un tera desde windows
+
+   /boot: son los archivos del arranque del sistema pueden ser 512 mb suficientes para los archivos de arranque 
+         primaria
+         al principio del espacio
+         sistema exdt4.
+
+   /: la particion raiz  que contiene la mayor parte de los archivos binarios o  programas y carpetas del sistema operativo dela distro
+    en este caso hay que ser mas generosos con el tamaño de almacenamiento minimo unos 30GB.
+
+   swap: esta particion es necesaria para el correcto funcionamiento de Linux. De forma resumida, se emplea como memoria adicional cuando la RAM del sistema esta lleno, aunque en sistemas modernos con gran cantidad de RAM  esta particion no es tan necesaria como antiguamente, conviene asignarle un espacio del doble de la ram  y es logica.
+
+   /home: en esta se almacenaran todos los archivos y documentos de usuarios se le deja lo que restante de la particion.
+
+ubuntu: yo soy porque nosotros somos
+
+
+cmd r ctrl r reinicar maquina virtual virtualbox
+
+
+
+
+
+
+
+     
+

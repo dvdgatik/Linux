@@ -1,0 +1,33 @@
+abrir terminal en ubuntu
+crtl  alt t t abrir la terminal en ubutnhu
+pwd: print working directory  imprime la ruta donde estas trabajando 
+
+ls: alista los elementos que hay dentro de una carpeta
+
+
+cd: change directory entrar a una carpetya
+cd  + nombre de la carpeta
+si se sabe el nombre de la carpeta que esta adentro se puede escribir las primeras letras y usar tab para que salga automaticamente
+se puede utilizar la ruta absoluta con cd
+
+cd .. un directorio atras
+
+mkdir: make directory crea una carpeta
+
+ clear: limpar o vaciar los comandos escritos de la terminal
+
+
+touch: crea un archivo vacio
+
+touch  + nombre del archivo
+
+cp: copiar archivo
+
+cp +  nombre del archivo + ruta de destino
+
+mv: mover archivo
+
+mv + nombre del archivo + ruta destino
+
+rm remover archivo 
+rm  +  nombre del archivo 

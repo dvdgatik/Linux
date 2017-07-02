@@ -1,0 +1,21 @@
+Existen diferentes distribuciones populares de gnu linux como:
+
+archlinux
+fedora
+centOS
+debian
+openSUSE
+ubuntu
+redhat
+steam
+
+Existen diferentes distribuciones para diferentes propositos
+
+Ubunto: es una distro de proposito general  y la mas conocida esta basada en debian y es capaz de adaptarse a las necesidades de cada usuario
+
+
+Steam0S: es una distribucion para videojuegos
+mas popular para videojuegos el rendimiento de los videojuegos puede ser superior al de windows gracias a GNU/Linux
+
+ChromeOS: es una distro pensada exclusivamente en internet, la mayoria de las cosas necesitan internet, este puede comunicarse sin acceso a internet
+es rapido, ligero y seguro

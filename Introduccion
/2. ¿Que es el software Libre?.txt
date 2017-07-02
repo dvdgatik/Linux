@@ -1,0 +1,29 @@
+¿Que es el software libre?
+Es software que respeta la libertad de los usuario y la comunidad
+
+Los usuarios tienen la libertad  de:
+Ejecutar
+Copiar
+Distribuir
+Estudiar
+Modificar
+Mejorar el software
+
+
+Cuatro libertades Esenciales
+Libertad 0: Ejecutar
+Libertad 1: Estudiar  ¿como funciona y cambiarlo? acceso al codigo fuente
+Libertad 2: Redistribuir compartir  las copias
+Libertad 3: Distribuir compartir copias modificadas a terceros
+
+
+Empresas que usan software libre y lo patrocinan:
+
+Google, intel, IBM, AMD, Lenovo
+
+Muchas tecnologias o en su mayoria se han desarrolado con software libre
+
+GNU Linux puede ayudar a mejorar tu perfil profesional
+
+
+

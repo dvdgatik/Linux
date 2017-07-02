@@ -1,0 +1,16 @@
+Entorno  de escritorio em ubuntu
+
+Unity
+Gnome primeras versiones (gestor de ventanas intuitivo)
+ubuntu para android
+
+tres importante s elementos
+lanzador
+tablero de aplicaciones
+
+interfaz de lineas de comandos
+6 sesiones de linea de comandos
+1 sesion con entorno grafico
+
+
+ctrl alt + f#

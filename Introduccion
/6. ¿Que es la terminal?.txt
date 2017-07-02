@@ -1,0 +1,25 @@
+La terminal consola o linea de comandos es la herramienta mas poderosa en linux
+
+es una ventana donde pordras introducir comandos y esos comandos podran hacer todo lo que tu queras
+
+comandos: palabras que  la terminal conocen para ejecutar acciones
+
+
+algunos comandos:
+
+sudo: permisos de superusuario  para ejecutar una linea o un comando extra significa SUPER USER DO
+requiere autentificacion
+
+
+apt-get:
+
+apt: significa advanced packaging  tool herramienta avanzada de empaquetado
+ es un sistema de gestion de paquetes creado por el proyecto debian
+ facilita la creacion y eliminacion de los programas
+ administrativos
+ ejemplo:
+
+ sudo apt-get install  +  nombre del programa
+
+ apt-get moo
+ ejemplo de una vaquita en ascii art

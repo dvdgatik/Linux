@@ -1,0 +1,63 @@
+ chmod:  nos permite cambiar los permnisos de un archivo o directorio
+
+ modo octal
+
+ Octal value    Read        Write       Execute
+     7            r           w            x
+     6            r           w            -
+     5            r           -            x
+     4            r           -            -
+     3            -           w            x
+     2            -           w            - 
+     1            -           -            x
+     0            -           -            -
+
+ls -l
+proporciona el listado de los archivos y carpetas dentro de una carpeta y sus permisos
+
+si aparece una d es directorio y si se antepone un guion es un archivo
+
+
+1er bloque usuario  quien creo el archivo
+2do bloque  grupo al que pertenece el fichero
+3er bloque permisos para otros usuarios
+
+ejemplo
+drwxrwxrwx
+
+-rw-rw-r--
+
+si es un comando administrativo se usa sudo
+
+
+ejemplo
+
+sudo chmod 000  + nombre del archivo
+
+ya no es necessario poner el sudo si ingresas la conttraseña
+pero si cierras sesion si
+
+
+Modo caracter
+
+3 modificadores 
++  añadir permiso 
+- quitar permiso
+=
+
+u uausario
+g grupoo
+o demas usuarios
+a todos los usuarios
+
+
+Ejemplo sudo chmod a+x nombre del archivo : agrega permiso de ejecucion a todos los usuarios
+
+chmod u=rw. go=   nombre del archivo
+
+
+
+Si queremos que los archivos dentro de una carpeta tambien sean afectados como a la carpeta usamos -R que significa recursivo
+
+
+sudo chmod -R 777 Example
