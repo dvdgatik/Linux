@@ -1,0 +1,18 @@
+para poder editar archivos es necesario un editor de texto como:
+sublime text
+nano (mas faciles y sencillos de utilizar)
+vim
+
+usar un archivo en la terminal con nano
+
+nano +  nombre del archivo
+
+si no existe lo crea
+
+
+ctrl W busca una cadena en el archivo
+ctrl o puedes cambiar el nombre del archivo
+ctrl x puedes salir y confirmar los cambios
+ctrl k corta la linea
+ctrl u pega la linea cortada
+ctrl g ir a la ayuda

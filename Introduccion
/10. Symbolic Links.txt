@@ -14,7 +14,7 @@ mkdir folder1 folder2
 
 crear link
 
-ln -s + ruta
+ln -s + ruta que tiene el acceso directo + ruta donde estara el acceso directo
 
 
 

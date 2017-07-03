@@ -53,7 +53,7 @@ a todos los usuarios
 
 Ejemplo sudo chmod a+x nombre del archivo : agrega permiso de ejecucion a todos los usuarios
 
-chmod u=rw. go=   nombre del archivo
+chmod u=rw, go=   nombre del archivo
 
 
 

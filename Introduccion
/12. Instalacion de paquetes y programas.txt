@@ -1,0 +1,62 @@
+En linux es recomendable saber instalar paquetes y programas desde la terminal existen varios metodos 
+
+Metodo 1
+Apt-get
+como este comando es administrativo debemos anteponer sudo
+
+example:
+sudo apt-get install nombre del paquete 
+sudo apt-get install alien
+
+sudo apt-get update sirve para saber si existe algo nuevo en los repositorios
+
+sudo apt-get upgrade ejecuta la actualizacion
+
+parta remover un paquete se puede utilizar 
+sudo apt-get remove nombre del paquete
+                         alien
+
+para remover los archivos de configuracion del paquete se puede utilizar
+sudo apt-get remove --purge nombre del paquetre
+                              alien 
+
+
+si tienes alguna duda con apt puedes utilizar 
+sudo apt-get help
+
+sudo apt-get autoremove para remover los paquetes que no son requeridos
+
+
+se pueden instalar paquetes  con extension .deb  (debian)
+example
+
+sudo dpkg -i archivo del paquete
+
+
+los programas de estos tipos de paquetes estan instalados en  la ruta /opt
+
+./sublime_text corre el programa
+
+para remover un paquete de debian
+
+sudo dpkg -r (remove)  nombre del paquete 
+sudo dpkg -r  sublime-text 
+
+otros paquetes que puedes encontrar son .rpm son utilizados en distros como redhat opensuse
+
+ si requieres utilizar un paquete con extension .rpm en ubuntu no se puede instalar ni ejecutar tendrias que convertirlo
+ ejemplo
+ sudo alien  nombre del archivo.rpm
+
+
+
+otro paquete que te puedes encontrar es uno .run
+se le tienen que dar permisos de ejecucion  x
+al tener un color verde en la terminal quere decir que si se puede ejecutar
+para ejecutarlo  ./xampp
+los archivos .run normalmente son asistentes graficos
+
+
+
+
+

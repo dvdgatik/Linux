@@ -1,0 +1,32 @@
+los archivos .tar.gz son archivos comprimidos er linux
+
+
+para descomprimirlo se usa
+
+tar -xvf nombre del archivo.tar.gz
+
+al descomprimirlo aparecera un archivo de color verde llamado configure esto queire decir que se puede ejecutar 
+con ./configure
+despues se utiliza make para preparar la instalacion
+despues sudo make install
+
+
+
+para saber la verison de un programa se utiliza nombredelproggrama +  -v
+para saber donde esta un programa se utiliza whereis + nombredelprograma
+
+
+Instalacion de paquetres por extension .sh --------------
+
+parta ejecutar un script.sh se debe hacer asi:
+
+bash nombre del script.sh
+debe tener permisos de ejecucion x
+./ se ejecuta
+
+ bin ---------  
+entrar a la carpeta bin
+ejecutar el archivo con ./
+debe tener permisos de ejecucion
+
+
