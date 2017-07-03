@@ -1,0 +1,21 @@
+En linux se pueden crear enlaces simbolicos o simbolic links como si fueran accesos directos  de windows
+
+
+Verificar el manual de algo
+exmaple
+
+man ln
+
+para crear varias carpetas se pone espacio y el nombre de la siguiente carpeta
+
+ejemplo
+
+mkdir folder1 folder2
+
+crear link
+
+ln -s + ruta
+
+
+
+
