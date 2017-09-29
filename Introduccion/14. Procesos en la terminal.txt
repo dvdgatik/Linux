@@ -1,0 +1,34 @@
+Que es un proceso en GNU/Linux
+son programas que que estan en ejecucion y se identifican por medio del 
+PID (Process IDentificator)
+El PID es un numero que se le asignaa a un proceso cuando este se ejecuta
+Es imposible que dos procesos tengan el mismo PID
+PPID es el padre de los procesos
+Todos los procesos deben tener un proceso que figure como padre
+
+Pero que pasa si el padre muere antes de algunos de sus hijos
+ - En este caso Proceso Init adoptaria estos procesos para que los mismos no se quedaran huecos
+
+ Se da cuando arranca  el sistema se desencadena una serie de procesos
+ 1. Se carga el nucleo de linux
+ 2. Los sisemas en la mayoria Unix seguira un proceso llamado Init y tiene como PID = 1
+
+ top: comando clasico que permite verificar los recusrsos usados por el sistema
+
+ la lista se actualiza cada 3 segundos
+
+ aparece el PID seguido del usuario el cual lo esta ejecutando
+
+ Para matar el proceso utilizamos el PID +  comando kill
+ kill: mata procesos
+
+ Los procesos en su gran mayoria a veces se ejecutan en segundo plano
+
+ Existen procesos que no podemos controlar y tenemos que recurrir a esta terminal
+
+ ctrl + c terminar la ejecucion de top
+
+ ps: manipular los procesos
+
+ pstree: devuelve los procesos en forma de arbol
+
