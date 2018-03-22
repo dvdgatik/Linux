@@ -1,7 +1,6 @@
 Entorno  de escritorio em ubuntu
-
-Unity
-Gnome primeras versiones (gestor de ventanas intuitivo)
+- Unity
+- Gnome primeras versiones (gestor de ventanas intuitivo)
 ubuntu para android
 
 tres importante s elementos
