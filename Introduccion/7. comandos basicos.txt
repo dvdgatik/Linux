@@ -30,4 +30,5 @@ mv: mover archivo
 mv + nombre del archivo + ruta destino
 
 rm remover archivo 
+rm -r remover archivo protegido o forzozamente
 rm  +  nombre del archivo 
