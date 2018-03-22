@@ -2,7 +2,7 @@ En linux se pueden crear enlaces simbolicos o simbolic links como si fueran acce
 
 
 Verificar el manual de algo
-exmaple
+example
 
 man ln
 
