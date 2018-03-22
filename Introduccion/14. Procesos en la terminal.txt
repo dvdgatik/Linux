@@ -19,7 +19,7 @@ Pero que pasa si el padre muere antes de algunos de sus hijos
 
  aparece el PID seguido del usuario el cual lo esta ejecutando
 
- Para matar el proceso utilizamos el PID +  comando kill
+ Para matar el proceso utilizamos   comando kill + el PID
  kill: mata procesos
 
  Los procesos en su gran mayoria a veces se ejecutan en segundo plano
