@@ -1,0 +1,14 @@
+shutdown: apagar el sistema
+shutdown -c: cancelar apagado
+
+otro comando para apagar el sistema:
+-init 0
+ -init es un comando que se ejecuta al iniciar el sistema y tiene como PID 1
+
+ reboot: reinicia el sistema
+ exit: salir de la sesion actual
+ cd ../.. : retroceder dos niveles
+ df: ver el espacio libre de los discos duros y particiones
+ free: ver el estado de la memoria RAM en megabytes
+
+ swap: Nos permite almacenar datos temporales reduciendo el uso de la memoria RAM
