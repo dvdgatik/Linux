@@ -1,0 +1,44 @@
+Cron es un administrador que permite ejecutar y controlar los procesos que corren en segundo plano
+en intervalos de horas, minutos, semanas, dias y meses.
+- Se tiene que especificar que archivo se tiene que ejecutar
+- El nombre de "Cron" proviene del griego "Chronos" que significa TIEMPO
+Comando a utilizar
+Crontab -l : lista de tareas
+Crontab -r : remover tareas
+Crontab -e : crear una nueva tarea
+
+
+export EDITOR="nombre del editor"
+- cambiar editor por defecto
+
+
+m h  dom mon dow   command
+
+m minutos
+h horas
+dom dia del mes
+mon mes
+dow dia de la semana
+command
+
+
+1st value minute range (0-59)
+2do value hour   range (0-23)
+3th value day of month (1-31)
+4th value month        (1-12)
+5th value day of week  (0-6) (domingo 0 o 7) sun, mon, tue, wed, thu, fri en ingles
+
+comando a ejecutar
+
+Nota: * se utiliza para sesignar todos (todos los minutos, horas, dias, mes )
+
+* * * * * date >> /home/clickit/Desktop/cronCF.txt
+
+
+
+
+
+
+
+
+
