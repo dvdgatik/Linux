@@ -1,0 +1,32 @@
+Shell Scripting es un tema muy amplio puede que deba llevarse un curso.
+
+Shell: Cascara o caparazon que contiene adentro el caparazon?, el nucleo o kernel de linux entonces la shell de linux es la que permite comunicarnos con el nucleo del sistema y todas sus herramientas mediante el uso de comandos.
+
+Script: Un script en linux se refiere a un archivo de texto plano que la mayoria de las veces tiene que llevar un encabezado por una almohadilla y un signo de admiracion  de cierre y enseguida el programa para interpretar el script
+
+#!/bin/bash
+
+ejemplo 
+
+echo "Hola Muno";
+
+archivo con extension sh;  shell.sh
+
+bash: Es un interprete de comandos que por defecto la mayoria de las distribuciones lo tiene.
+Esta basado en la shell de UNIX y su funcion consiste en interpretar las ordenes que el usuario ingrese.
+
+Se puede ejecutar como ./shell.sh o como bash shell.sh
+
+Imprime el mensaje hola mundo desde la terminal
+
+#!/bin/bash
+touch  archivo.txt;
+mkdir shell;
+echo "Hola Mundo";
+
+
+#!/bin/bash
+touch  archivo.txt;
+mkdir shell;
+sudo chmod a+x archivo.txt;
+echo "Hola Mundo";
