@@ -1,0 +1,28 @@
+- Un Pipe o una tuberia se define como una forma de conectar la salida estandar de un programa con la entrada standar de otro.
+- Permite que varios programas puedan encadenarse y hacer que los resultados de un comando puedan usarse como datos para procesar un siguinete comando.
+
+
+para declarar un pipe se hace con | se le conoce como pleca o linea vertical mas el comando a encadenar
+
+ejemplo
+-ls | sort: Lista los elementos de forma alfabetica
+
+sort: ordenar
+grep: nos permite encontrar coincidencias de lineas de texto dentro de una carpeta o archivo
+
+ejemplo 
+-ls | grep + caracteres de coincidencia
+
+cat: visualiza un archivo 
+
+ejemplo
+-cat animals.txt | grep -i caracteres de coincidencia
+g
+grep -i: ignora la diferencia entre mayusculas y minusculas
+
+se pueden encadenar diferentes pipes 
+
+ejemplo
+cat  animals.txt | grep -i e | sort
+
+Los pipes se pueden programar por medio de lenguaje C
